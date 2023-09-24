@@ -115,23 +115,26 @@ status statusSlide swiper */
 }
 .statusSlide.swiper .swiper-slide a {
   display: block;
-  background-color: #fff;
   width: 110px;
   height: 35px;
   font-size: 15px;
   line-height: 35px;
-  border-radius: 18px;
   margin: 10px auto;
-  overflow: hidden;
 }
 .statusSlide.swiper .swiper-slide a button {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+.statusSlide.swiper .swiper-slide a button:enabled {
+  background-color: #fff;
   color: #009C7D;
 }
 .statusSlide.swiper .swiper-slide a button:disabled {
   background-color: #005A48;
   color: #94B8B2;
-  width: 100%;
-  height: 100%;
+
 }
 .statusSlide .swiper-button-next {
   right: 40px;
