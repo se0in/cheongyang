@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="62" viewBox="0 0 74 62">
+  <defs>
+    <clipPath id="clip-yacht_1">
+      <rect width="74" height="62"/>
+    </clipPath>
+  </defs>
+  <g id="yacht_1" clip-path="url(#clip-yacht_1)">
+    <g id="ship2" transform="translate(0 0)">
+      <path id="패스_310" data-name="패스 310" d="M0,50H73.141s-9.592,10.645-20.4,10.645H16.8S0,58.443,0,50.019Z" fill="#061915"/>
+      <path id="패스_311" data-name="패스 311" d="M22.869,51.988V0s20.42,19,20.42,36.65Z" fill="#94b43d"/>
+      <path id="패스_312" data-name="패스 312" d="M40.7,49.835V11.674S58.9,23.875,58.81,37.4Z" fill="#e5c388"/>
+    </g>
+  </g>
+</svg>

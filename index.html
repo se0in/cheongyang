@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="seoin" />
+  <meta name="description" content="Children's Baekje Experience Center https://www.cheongyang.go.kr/child.do">
+  <title>청양어린이백제체험관</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/swiper.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="./js/swiper.js"></script>
+  <script defer src="./js/custom.js"></script>
+</head>
+
+<body>
+  <!-- header 모바일 mb-->
+  <header class="MbHeader webNone">
+    <a href="index.html" class="logo"><img src="./img/logo.svg" alt="청양어린이백제체험관"></a>
+    <div class="mbMenu">
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navShadow">
+        <nav>
+          <div class="mbClose">
+            <a href="index.html" class="logo"><img src="./img/logo.svg" alt="청양어린이백제체험관"></a>
+            <button class="close">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <ul>
+            <li><a href="javascript:void(0)" class="on">체험관소개</a>
+              <ul>
+                <li><a href="javascript:void(0)">인사말</a></li>
+                <li><a href="javascript:void(0)">체험관 현황</a></li>
+                <li><a href="javascript:void(0)">관람 안내</a></li>
+                <li><a href="javascript:void(0)">오시는 길</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:void(0)">예약</a>
+              <ul>
+                <li><a href="javascript:void(0)">예약안내</a></li>
+                <li><a href="javascript:void(0)">관람 예약</a></li>
+                <li><a href="javascript:void(0)">체험 프로그램 예약</a></li>
+                <li><a href="javascript:void(0)">교육 프로그램 예약</a></li>
+                <li><a href="javascript:void(0)">예약 조회</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:void(0)">전시</a>
+              <ul>
+                <li><a href="javascript:void(0)">백제문화마을</a></li>
+                <li><a href="javascript:void(0)">청양예술마을</a></li>
+                <li><a href="javascript:void(0)">칠갑어드벤처</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:void(0)">문화행사</a>
+              <ul>
+                <li><a href="javascript:void(0)">행사소식</a></li>
+                <li><a href="javascript:void(0)">현장 스케치</a></li>
+                <li><a href="javascript:void(0)">자료실</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:void(0)">커뮤니티</a>
+              <ul>
+                <li><a href="javascript:void(0)">공지사항</a></li>
+                <li><a href="javascript:void(0)">이벤트</a></li>
+                <li><a href="javascript:void(0)">관람 후기</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- header 웹 web-->
+  <header class="WebHeader mbNone">
+    <a href="index.html" class="logo"><img src="./img/logo.svg" alt="청양어린이백제체험관"></a>
+    <nav>
+      <div class="menuBg"></div>
+      <ul>
+        <li><a href="javascript:void(0)">체험관소개</a>
+          <ul>
+            <li><a href="javascript:void(0)"><span>인사말</span></a></li>
+            <li><a href="javascript:void(0)"><span>체험관 현황</span></a></li>
+            <li><a href="javascript:void(0)"><span>관람 안내</span></a></li>
+            <li><a href="javascript:void(0)"><span>오시는 길</span></a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)">예약</a>
+          <ul>
+            <li><a href="javascript:void(0)"><span>예약안내</span></a></li>
+            <li><a href="javascript:void(0)"><span>관람 예약</span></a></li>
+            <li><a href="javascript:void(0)"><span>체험 프로그램 예약</span></a></li>
+            <li><a href="javascript:void(0)"><span>교육 프로그램 예약</span></a></li>
+            <li><a href="javascript:void(0)"><span>예약 조회</span></a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)">전시</a>
+          <ul>
+            <li><a href="javascript:void(0)"><span>백제문화마을</span></a></li>
+            <li><a href="javascript:void(0)"><span>청양예술마을</span></a></li>
+            <li><a href="javascript:void(0)"><span>칠갑어드벤처</span></a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)">문화행사</a>
+          <ul>
+            <li><a href="javascript:void(0)"><span>행사소식</span></a></li>
+            <li><a href="javascript:void(0)"><span>현장 스케치</span></a></li>
+            <li><a href="javascript:void(0)"><span>자료실</span></a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)">커뮤니티</a>
+          <ul>
+            <li><a href="javascript:void(0)"><span>공지사항</span></a></li>
+            <li><a href="javascript:void(0)"><span>이벤트</span></a></li>
+            <li><a href="javascript:void(0)"><span>관람 후기</span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="cloudWrap">
+    <img src="./img/cloud_1.svg" alt="">
+    <img src="./img/cloud_2.svg" alt="">
+    <img src="./img/cloud_3.svg" alt="">
+    <img src="./img/cloud_4.svg" alt="">
+  </div>
+
+  <!-- layout -->
+  <div id="wrap">
+    <!-- inner -->
+    <div class="inner">
+      <!-- 메인 -->
+      <div class="intro">
+        <div class="introText">
+          <p class="smallText">Children's Baekje Experience Center</p>
+          <h2 class="titleText">학습하고 체험하는<br><span>청양 어린이백제체험관</span></h2>
+          <p class="subText">어린이백제체험관에 오신 것을 환영합니다!<br>숨겨진 청양 속 백제 역사를 찾아내고, 문화를 체험하러 떠나요!</p>
+          <a href="javascript:void(0)" class="mainBtn">체험관 자세히 보기<span
+              class="material-symbols-outlined">arrow_forward</span></a>
+        </div>
+        <!-- swiper -->
+        <div class="introSlideSwiper introSlide swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide introCard1">
+              <div class="slideText">
+                <span class="slideStatus">진행 중</span>
+                <h4>개관 기념 이벤트 안내</h4>
+                <p><span>*</span><span>청양투어패스 입장객 12월 말까지 무료입장</span></p>
+                <p><span>*</span><span>[칠갑산777이벤트]<br>체험관 개관 77일(6월 21일)까지 입장료 무료</span></p>
+              </div>
+              <div class="slideImg">
+                <img src="./img/slide_character_1.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide introCard2">
+              <div class="slideText">
+                <span class="slideStatus">진행 예정</span>
+                <h4>추석 명절 공예체험</h4>
+                <p><span>*</span><span>추석 관련 공예 작업 진행 예정 안내</span></p>
+                <p><span>*</span><span>[이벤트 진행 기간]<br>2023년 9월 18일 ~ 2023년 10월 6일</span></p>
+              </div>
+              <div class="slideImg">
+                <img src="./img/slide_character_2.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide introCard3">
+              <div class="slideText">
+                <span class="slideStatus">진행 중</span>
+                <h4>역사 속 나들이: 과거로의 시간여행</h4>
+                <p><span>*</span><span>역사적인 장소와 유적지를 방문하세요 가이드 투어와 함께 과거의 이야기를 들어보세요</span></p>
+              </div>
+              <div class="slideImg">
+                <img src="./img/slide_character_3.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+
+      <!-- 관람 예약 : 예약 현황  -->
+      <div class="status">
+        <div class="statusDate">
+          <div class="calender mbNone">
+            <div class="calenderInner">
+              <span class="month">09월</span>
+              <span class="day">01일</span>
+              <span class="dayWeek">금요일</span>
+            </div>
+          </div>
+          <div class="statusTitle">
+            <p class="titleText">관람예약<span class="material-symbols-outlined icon_plus">add</span></p>
+            <p class="subText mbNone">회차별로 예약가능</p>
+          </div>
+          <div class="date webNone">
+            <p><span class="material-symbols-outlined icon_calendar">calendar_month</span><span class="todayDate">2023년
+                09월 01일 금요일</span></p>
+          </div>
+        </div>
+        <div class="statusSlide swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h5>1회차</h5>
+              <p class="time">09:00 ~ 10:10</p>
+              <p class="person">잔여 32명</p>
+              <a href="javascript:void(0)"><button disabled>예약 마감</button></a>
+            </div>
+            <div class="swiper-slide">
+              <h5>2회차</h5>
+              <p class="time">10:00 ~ 11:10</p>
+              <p class="person">잔여 20명</p>
+              <a href="javascript:void(0)"><button disabled>예약 마감</button></a>
+            </div>
+            <div class="swiper-slide">
+              <h5>3회차</h5>
+              <p class="time">11:00 ~ 12:10</p>
+              <p class="person">잔여 14명</p>
+              <a href="javascript:void(0)"><button>예약 가능</button></a>
+            </div>
+            <div class="swiper-slide">
+              <h5>4회차</h5>
+              <p class="time">13:00 ~ 14:10</p>
+              <p class="person">잔여 2명</p>
+              <a href="javascript:void(0)"><button>예약 가능</button></a>
+            </div>
+            <div class="swiper-slide">
+              <h5>5회차</h5>
+              <p class="time">14:00 ~ 15:10</p>
+              <p class="person">잔여 30명</p>
+              <a href="javascript:void(0)"><button>예약 가능</button></a>
+            </div>
+            <div class="swiper-slide">
+              <h5>6회차</h5>
+              <p class="time">15:00 ~ 16:10</p>
+              <p class="person">잔여 47명</p>
+              <a href="javascript:void(0)"><button>예약 가능</button></a>
+            </div>
+            <div class="swiper-slide">
+              <h5>7회차</h5>
+              <p class="time">16:00 ~ 17:10</p>
+              <p class="person">잔여 50명</p>
+              <a href="javascript:void(0)"><button>예약 가능</button></a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+
+      <!-- 운영정보 -->
+      <div class="information">
+        <div class="infoText">
+          <div class="visitingHours infoItem">
+            <p class="titleText">관람정보</p>
+            <p class="hours subText">09:00-17:10</p>
+          </div>
+          <div class="closedDays infoItem">
+            <p class="titleText">휴관일</p>
+            <p class="subText">
+              매주 월요일 정기 휴관일
+              <br>1월 1일(신정), 설날 당일, 추석 당일
+            </p>
+          </div>
+          <div class="method infoItem">
+            <p class="titleText">운영방법</p>
+            <p class="subText">
+              1일 5회 운영, 입장객 1일 1회 신청 가능<br>
+              단체관람의 경우 유아 7명당 성인 인솔자 1명,<br>
+              어린이 10명당 성인 인솔자 1명 필히 동반</p>
+          </div>
+        </div>
+        <div class="infoImg mbNone">
+          <img src="./img/character_search.svg" alt="">
+        </div>
+      </div>
+
+
+      <!-- 백제문화마을 -->
+      <div class="village">
+        <div class="villageMap">
+          <div class="titleText">
+            <p class="smallText">Baekje Culture village</p>
+            <h3>백제문화마을</h3>
+          </div>
+          <div class="titleBubble">
+            <img src="./img/character_photo.svg" alt="">
+            <div class="speechBubble">
+              <div class="bubbleEvent on bubbleCulture">blue 백제문화마을
+                <p class="bubbleTitle">"백제 보물을 찾아라"</p>
+                <p class="bubbleSub">왕과 왕비와 함께 청양에 숨겨진<br>백제 보물을 찾아보는 체험관입니다.</p>
+              </div>
+              <div class="bubbleEvent bubbleArt"> orange 청양예술마을
+                <p class="bubbleTitle">“청양에는 왜 가마터가 많을까?”</p>
+                <p class="bubbleSub">청양예술마을은 백제의 기와와 토기를<br>알아보는 체험관입니다.
+                </p>
+              </div>
+              <div class="bubbleEvent bubbleAdventure">green 칠갑어드벤쳐
+                <p class="bubbleTitle">"백제 산성을 지켜라!</p>
+                <p class="bubbleSub">
+                  칠갑어드벤처는 칠갑산을 비롯한 백제성곽을<br> 모티브로 한 실내체험공간입니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mapContainer">
+            <!-- 지도 이미지 -->
+            <img class="map" src="./img/map.svg" alt="">
+            <div class="locationWrap">
+              <div class="location locationCulture on"></div>
+              <div class="location locationArt"></div>
+              <div class="location locationAdventure"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="javascript:void(0)"><img src="./img/map0.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)"><img src="./img/map1.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)"><img src="./img/map2.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+
+      <!-- 예약 관련 카드 -->
+      <div class="card">
+        <a href="javascript:void(0)" class="cardItem experience">
+          <div class="cardText">
+            <h4>체험 프로그램 예약</h4>
+            <p class="subText">체험 프로그램을 예약하실 수 있습니다.</p>
+          </div>
+          <div class="itemBottom">
+            <button class="mainBtn mbNone">바로가기
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+            <div class="cardIconWrap"><img src="./img/icon_mountain.svg" alt=""></div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="cardItem education">
+          <div class="cardText">
+            <h4>교육 프로그램 예약</h4>
+            <p class="subText">교육 프로그램을 예약하실 수 있습니다.</p>
+          </div>
+          <div class="itemBottom">
+            <button class="mainBtn mbNone">바로가기
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+            <div class="cardIconWrap"><img src="./img/icon_book.svg" alt=""></div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="cardItem guide">
+          <div class="cardText">
+            <h4>예약 안내</h4>
+            <p class="subText">예약에 돤련된 안내사항을 알려드립니다.</p>
+          </div>
+          <div class="itemBottom">
+            <button class="mainBtn mbNone">바로가기
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+            <div class="cardIconWrap"><img src="./img/icon_calendar.svg" alt=""></div>
+          </div>
+        </a>
+      </div>
+
+      <!-- 소식을 알립니다. -->
+      <div class="notice">
+        <div class="noticeTitle">
+          <h2>소식을 알립니다</h2>
+          <div class="noticeNav">
+            <ul>
+              <li class="on">공지사항</li>
+              <li>행사소식</li>
+              <li>자료실</li>
+            </ul>
+            <a href="javascript:void(0)" class="moreView" title="더보기"><span
+                class="material-symbols-outlined icon_plus">add</span></a>
+          </div>
+        </div>
+        <!-- 공지사항 -->
+        <div class="noticeList listWrap on">
+          <div class="listWebFlex">
+            <a href="javascript:void(0)" class="list">
+              <p>어린이백제체험관 무료관람 이벤트 종료 및 5회차 시간 확대 운영 안내</p>
+              <span>2023.08.22</span>
+            </a>
+            <a href="javascript:void(0)" class="list">
+              <p>어린이백제체험관 예약 관련 안내</p>
+              <span>2023.08.21</span>
+            </a>
+            <a href="javascript:void(0)" class="list">
+              <p>청양군, 청양 어린이 백제 체험관 '777이벤트' 당첨자 출현</p>
+              <span>2023.08.17</span>
+            </a>
+            <a href="javascript:void(0)" class="list">
+              <p>청양어린이백제체험관 홈페이지 신규 오픈 안내</p>
+              <span>2023.07.16</span>
+            </a>
+          </div>
+        </div>
+        <!-- 행사소식 -->
+        <div class="eventList listWrap">
+          <div class="listWebFlex">
+            <a href="javascript:void(0)" class="list">
+              <p>청양군, 충남 최초 어린이 박물관 "어린이백제체험관" 개관</p>
+              <span>2023.08.22</span>
+            </a>
+          </div>
+        </div>
+        <!-- 자료실 + 게시글이 없을 경우 -->
+        <div class="referenceList listWrap">
+          <div class="listEmpty">게시글이 없습니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footerWrap">
+    <div class="footerBg">
+      <div class="footerBgBack"></div>
+      <div class="footerCha"></div>
+      <div class="footerBgFront"></div>
+      <div class="footerWaveYacht mbNone">
+        <img src="./img/wave_1.svg" alt="물결">
+        <img src="./img/wave_2.svg" alt="물결">
+        <img src="./img/wave_1.svg" alt="물결">
+        <img src="./img/wave_2.svg" alt="물결">
+        <img src="./img/yacht_1.svg" alt="요트">
+        <img src="./img/yacht_2.svg" alt="요트">
+      </div>
+    </div>
+    <footer>
+      <nav class="footerNav">
+        <ul>
+          <li><a href="javascript:void(0)" class="privacy">개인정보처리방침</a></li>
+          <li><a href="javascript:void(0)">저작권정책</a></li>
+          <li><a href="javascript:void(0)">이메일집단수집거부</a></li>
+          <li><a href="javascript:void(0)">본인확인서비스</a></li>
+          <li><a href="javascript:void(0)">오시는길</a></li>
+          <li><a href="javascript:void(0)">사이트맵</a></li>
+        </ul>
+      </nav>
+      <div class="footerInfo">
+        <address>
+          <p>[32272] (우편번호) 충청남도 청양군 대치면 장곡길 45-27</p>
+          <p>전화 041.940.4879​</p>
+        </address>
+        <p class="copyright">Copyright 2023 CHEONGYANG-GUN. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

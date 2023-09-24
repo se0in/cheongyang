@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* 학습하고 체험하는 청양 어린이백제체험관 */
+/* intro slide swiper */
+.swiper.introSlideSwiper {
+  height: 450px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+border-radius: 40px;
+}
+.swiper.introSlideSwiper .swiper-slide {
+  padding: 40px 46px 20px;
+  box-sizing: border-box;
+}
+.swiper.introSlideSwiper .swiper-slide.introCard1 {
+  background: url(../img/slide_bottom1.svg) no-repeat center bottom;
+  background-color: #CBE3FF;
+}
+.swiper.introSlideSwiper .swiper-slide.introCard2 {
+  background: url(../img/slide_bottom2.svg) no-repeat center bottom;
+  background-color: #e9e9e9;
+}
+.swiper.introSlideSwiper .swiper-slide.introCard3 {
+  background: url(../img/slide_bottom3.svg) no-repeat center bottom;
+  background-color: #E0F4DF;
+}
+.swiper.introSlideSwiper .swiper-slide .slideText {
+  flex: 2;
+}
+.swiper.introSlideSwiper .swiper-slide .slideText > span.slideStatus {
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 17px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.swiper.introSlideSwiper .swiper-slide.introCard1 .slideText > span.slideStatus {
+  background-color: #2F387B;
+}
+.swiper.introSlideSwiper .swiper-slide.introCard2 .slideText > span.slideStatus {
+  background-color: #69A895;
+}
+.swiper.introSlideSwiper .swiper-slide.introCard3 .slideText > span.slideStatus {
+  background-color: #52AC4F;
+}
+.swiper.introSlideSwiper .swiper-slide .slideText h4 {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  word-break: keep-all;
+  font-family: var(--PointFontFamily);
+}
+.swiper.introSlideSwiper .swiper-slide .slideText p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  word-break: keep-all;
+  display: flex;
+  line-height: 21px;
+}
+.swiper.introSlideSwiper .swiper-slide .slideText p span:first-child {
+  margin-right: 6px;
+}
+.swiper.introSlideSwiper .swiper-slide .slideImg {
+  flex: 1;
+  align-self: flex-end;
+  margin: 20px auto;
+
+  max-width: 150px;
+}
+.swiper.introSlideSwiper .swiper-slide .slideImg img {
+  width: 100%;
+}
+@media screen and (min-width : 768px) {
+  .swiper.introSlideSwiper .swiper-slide {
+    display: flex;
+  }
+}
+
+/* 관람 예약 : 예약 현황
+status statusSlide swiper */
+.statusSlide.swiper {
+  width: 100%;
+  height: 540px;
+  background-color: #00876C;
+  padding-top: 30px;
+}
+.statusSlide.swiper .swiper-slide {
+  text-align: center;
+  position: relative;
+}
+.statusSlide.swiper .swiper-slide::after {
+  content: '';
+  width: 40vw;
+  height: 1px;
+  display: block;
+  background-color: #ffffff50;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.statusSlide.swiper .swiper-slide h5 {
+  font-family: var(--PointFontFamily);
+  font-size: 19px;
+  color: #FFE24A;
+}
+.statusSlide.swiper .swiper-slide p.time {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.statusSlide.swiper .swiper-slide p.person {
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 18px;
+}
+.statusSlide.swiper .swiper-slide a {
+  display: block;
+  background-color: #fff;
+  width: 110px;
+  height: 35px;
+  font-size: 15px;
+  line-height: 35px;
+  border-radius: 18px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.statusSlide.swiper .swiper-slide a button {
+  color: #009C7D;
+}
+.statusSlide.swiper .swiper-slide a button:disabled {
+  background-color: #005A48;
+  color: #94B8B2;
+  width: 100%;
+  height: 100%;
+}
+.statusSlide .swiper-button-next {
+  right: 40px;
+  transform: rotate(90deg);
+  color: #fff;
+}
+.statusSlide .swiper-button-prev {
+  left: 40px;
+  transform: rotate(90deg);
+  color: #fff;
+}
+@media screen and (min-width : 768px) {
+  .status .statusSlide {
+    height: 160px;
+  }
+  .statusSlide.swiper .swiper-slide::after {
+    width: 1px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: -1px;
+    transform: translateX(0) translateY(-50%);
+  }
+  .statusSlide.swiper .swiper-slide a {
+    margin: 0 auto;
+  }
+  .statusSlide .swiper-button-next {
+    right: 20px;
+    transform: rotate(0) scale(60%);
+  }
+  .statusSlide .swiper-button-prev {
+    left: 20px;
+    transform: rotate(0) scale(60%);
+  }
+}
+
+
+/* 백제문화마을
+village slide */
+.slide.swiper {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+.slide.swiper .swiper-wrapper {
+  width: 100%;
+}
+.slide.swiper .swiper-slide img {
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover; 
+  overflow: hidden;
+  border: 5px solid #dcdcdc;
+}
+.slide.swiper  .swiper-button-next {
+  color: #ababab;
+}
+.slide.swiper .swiper-button-prev {
+  color: #ababab;
+}
+@media screen and (min-width : 768px) {
+  .slide.swiper .swiper-slide img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+  border: 5px solid #fff;
+  }
+  .slide.swiper  .swiper-button-next {
+    color: #fff;
+    text-shadow: 0 0 10px #999;
+  }
+  .slide.swiper .swiper-button-prev {
+    text-shadow: 0 0 10px #999;
+    color: #fff;
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="278" viewBox="0 0 456 278">
+  <defs>
+    <clipPath id="clip-mountain_1">
+      <rect width="456" height="278"/>
+    </clipPath>
+  </defs>
+  <g id="mountain_1" clip-path="url(#clip-mountain_1)">
+    <g id="그룹_156" data-name="그룹 156" transform="translate(7260 22899)">
+      <path id="다운로드_1_" data-name="다운로드 (1)" d="M14.651,173.947C11.048,183.648-28,278.5-28,278.5H426.644s-16.671-82.193-42.727-133.558c-8.681-17.126-15.813-53.613-41.252-53.2-41.2-5.541-45.117,63.058-76.205,55.1-28.453-7.614-29.949-44.971-37.472-62.243S208.5-1.806,155.932.172C101,6.194,87.794,65.219,56.361,122.87c-6.679,12.249-28.436,15.431-41.712,51.088Z" transform="translate(-7232 -22899.131)" fill="#79c477"/>
+      <rect id="사각형_164" data-name="사각형 164" width="456" height="280" transform="translate(-7260 -22899)" fill="#fff" opacity="0"/>
+    </g>
+  </g>
+</svg>
