@@ -1,5 +1,5 @@
 #  cheongyang : 청양 어린이 백제 체험관
-배포 링크 : https://seoin-cheongyang.netlify.app  
+✨ 링크 : https://seoin-cheongyang.netlify.app ✨
 <br>
 ## 📣 프로젝트 소개
 - 개인 프로젝트
