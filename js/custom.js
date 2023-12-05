@@ -28,7 +28,6 @@ $(document).ready(function () {
   });
   /* 모바일 메뉴 클릭 토글 */
   $('.mbMenu nav > ul > li').click(function () {
-    console.log('sss');
     $(this).children('ul').stop().slideDown();
     $(this).siblings().children('ul').stop().slideUp();
     $('.mbMenu nav > ul > li').children('a').removeClass('on')

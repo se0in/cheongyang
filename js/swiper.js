@@ -58,7 +58,6 @@ var swiper3 = new Swiper(".slide", {
 /* active된 슬라이드와 같은 인덱스의 location 이미지 변경 */
 swiper3.on("slideChange", function () {
   let activeIndex = swiper3.activeIndex;
-  console.log("activeIndex: ", activeIndex);
   $(".locationWrap .location").removeClass("on");
   $(".locationWrap .location").eq(activeIndex).addClass("on");
 });
