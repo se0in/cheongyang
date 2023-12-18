@@ -49,9 +49,6 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-p {
-  cursor: default;
-}
 
 /* mb/web block/none */
 .mbNone {
